@@ -19,12 +19,16 @@ function App() {
     };
 
     const timer = setTimeout(playVideo, 500);
+    const timer1 = setTimeout(playVideo, 1000);
+    const timer2 = setTimeout(playVideo, 3000);
 
-    document.addEventListener('mouseover', playVideo);
+    // document.addEventListener('mouseover', playVideo);
 
     return () => {
       clearTimeout(timer);
-      document.removeEventListener('mouseover', playVideo);
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      // document.removeEventListener('mouseover', playVideo);
     };
   }, []);
   return (
