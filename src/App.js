@@ -10,14 +10,22 @@ function App() {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const playVideo = () => {
       if (videoRef.current && videoRef.current.paused) {
-        videoRef.current.play();
+        videoRef.current.play().catch(error => {
+          console.log("Video play was prevented:", error);
+        });
       }
-    }, 500); // Délai de 500ms
+    };
 
-    // Nettoyage du timer lorsque le composant est démonté
-    return () => clearTimeout(timer);
+    const timer = setTimeout(playVideo, 500);
+
+    document.addEventListener('mouseover', playVideo);
+
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('mouseover', playVideo);
+    };
   }, []);
   return (
     <Router className="App">
