@@ -3,16 +3,9 @@ import React from 'react';
 const Services = () => {
   return (
     <div className="services-container">
-      <h1>Our Services</h1>
-      <p>
-        At DesignCar, we offer a range of premium services tailored to enhance 
-        your experience with the Mercedes-Benz G23 AMG Brabus 800.
-      </p>
-      
-      <p>
-        Explore our services and discover how we can elevate your Mercedes-Benz 
-        G23 AMG Brabus 800 to new heights of luxury and performance.
-      </p>
+      <h2>What We Offer</h2>
+      <p>Christo specializes in a comprehensive suite of web design and digital marketing services aimed at elevating your online presence. From custom website development to strategic digital campaigns, our offerings are designed to meet the unique needs of your business.</p>
+      <p>Discover how our innovative solutions can transform your digital strategy and drive success.</p>
     </div>
   );
 };

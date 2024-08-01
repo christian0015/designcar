@@ -3,15 +3,12 @@ import React from 'react';
 const About = () => {
   return (
     <div className="about-container">
-      <h1>About DesignCar</h1>
+      <h1>About Us</h1>
       <p>
-        Welcome to DesignCar, the ultimate destination for automotive excellence.
-        We specialize in designing high-performance vehicles, and our flagship 
-        model is the Mercedes-Benz G23 AMG Brabus 800. Combining luxury, power, 
-        and innovation, the G23 AMG Brabus 800 sets new standards in the automotive 
-        world.
+        Welcome to Christo agency, your go-to partner for cutting-edge web design and digital solutions. 
+        We excel in crafting impactful websites and strategic digital campaigns tailored to your unique needs. 
+        Our team combines creativity, technology, and innovation to set new standards in the digital world.
       </p>
-      
     </div>
   );
 };
