@@ -25,31 +25,32 @@ function App() {
 
         <div className="leftBlock">
           <div className="logo">
-            <div className="logoTextA">Christo</div>
-            <div className="logoTextB">Digital Agency</div>
+            <div className="logoTextA">design</div>
+            <div className="logoTextB">design Car</div>
           </div>
 
           <div className="blockFollow">
-            <h3 className="tilte">Follow us</h3>
+            <h3 className="title">Suivez-nous</h3>
             <div className="followText">
-              <p>Embark on a journey with us to elevate your online presence and achieve exceptional results.</p>
+              <p>Rejoignez-nous pour découvrir comment nous pouvons élever votre présence en ligne et obtenir des résultats exceptionnels.</p>
             </div>
 
-            <div className="followLogo">            
-            <a href="https://www.instagram.com/christian_tukunda" target="_blank" rel="noopener noreferrer">
-              <img src="reseaux_icons/instagram.png" alt="Instagram"></img>
-            </a>
-            <a href="https://www.tiktok.com/@christian_tukunda" target="_blank" rel="noopener noreferrer">
-              <img src="reseaux_icons/tiktok.png" alt="TikTok"></img>
-            </a>
-            <a href="https://t.me/christiantukunda" target="_blank" rel="noopener noreferrer">
-              <img src="reseaux_icons/telegram.png" alt="Telegram"></img>
-            </a>                     
+            <div className="followLogo">
+              <a href="https://www.instagram.com/christian_tukunda" target="_blank" rel="noopener noreferrer">
+                <img src="reseaux_icons/instagram.png" alt="Suivez-nous sur Instagram"></img>
+              </a>
+              <a href="https://www.tiktok.com/@christian_tukunda" target="_blank" rel="noopener noreferrer">
+                <img src="reseaux_icons/tiktok.png" alt="Suivez-nous sur TikTok"></img>
+              </a>
+              <a href="https://t.me/christiantukunda" target="_blank" rel="noopener noreferrer">
+                <img src="reseaux_icons/telegram.png" alt="Suivez-nous sur Telegram"></img>
+              </a>
             </div>
+
 
             <div className="going">
               <a href='https://mysite-fbcd68.webflow.io/'>
-                <div className="goingS1a">Elevate Your Digital Strategy with Us
+                <div className="goingS1a">Découvrez la Mercedes-Benz G 63 AMG Brabus 800 Widestar
                   <div className="goingS1b"> 
                     <img src="arrow (1).png" alt="Description of image" ></img>
                   </div>

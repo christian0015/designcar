@@ -4,27 +4,27 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="HomeLeft">
-        <h1>New Digital Experiences<span className="pointH1">.</span></h1>
-        <p>Welcome to Christo, where innovation meets excellence in web design and digital transformation. <br/>
-        Elevate your online presence and drive results.</p>
+        <h1>Mercedes-Benz G 63 AMG Brabus 800 Widestar<span className="pointH1">.</span></h1>
+        <p>Bienvenue chez designCar, où l'innovation rencontre l'excellence dans la conception automobile. <br/>
+        Découvrez la puissance et le luxe de la Mercedes-Benz G 63 AMG Brabus 800 Widestar.</p>
         
-        <a href='https://mysite-fbcd68.webflow.io/'>
-          <div className="goingS2a">
+        <div className="goingS2a">
+          <a href='https://mysite-fbcd68.webflow.io/' target="_blank" rel="noopener noreferrer">
             <div className="goingS2b"> 
-              <img src="arrow (2).png" alt="Description of image" ></img>
+              <img src="arrow (2).png" alt="Flèche pointant vers l'avant"></img>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
 
       <div className="HomeRight">
         <div className="HomeRightTop">
-        <h2>Our Expertise <span className="pointH1">.</span></h2>
-        <p>At Christo, we excel in crafting cutting-edge web designs 
-          that drive engagement and results. Explore our array of services 
-          and stay informed about the latest design innovations and trends.</p>
-
+          <h2> Notre Savoir-Faire<span className="pointH1">.</span></h2>
+          <p>Chez designCar, nous excellons dans la présentation de designs automobiles avant-gardistes 
+            qui suscitent l'engagement et les résultats. Explorez notre gamme de services 
+            et restez informé des dernières innovations et tendances en matière de design automobile.</p>
         </div>
+
         <div className="avis">
           <div className="profil">
             <div>
