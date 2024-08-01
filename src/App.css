@@ -26,11 +26,11 @@ html,body{
 .logo{
   display: flex;
   flex-direction: column;
-  margin: 40px 80px 0px 0px;
+  margin: 40px 0px 0px 0px;
   transform: rotate(-90deg);
   font-family: "Nova Flat", system-ui;
 }.logoTextA{
-  font-size: 50px
+  font-size: 40px
 }.logoTextB{
   font-size: 20px;
   font-weight: 200;
@@ -64,7 +64,7 @@ html,body{
   align-items: center;
   width: 470px;
   height: 75px;
-  z-index: 100000;
+  z-index: 1000;
   background-color: rgb(0, 0, 0);
   border-radius: 50px;
   margin-top: -10px;
@@ -119,10 +119,10 @@ html,body{
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -0; /* Ensure the video is behind the content */
+  z-index: -1; /* Ensure the video is behind the content */
 }
-.rigtBlock div, Services div, About div, Contact div, h1, h2, h3, p, Routes{
-  z-index: 10000000000000000;
+.rigtBlock{
+  z-index: -0;
 }
 
 .video-background video {
@@ -255,9 +255,10 @@ nav .item{
     margin: 20px 0px 0px 10px;
     transform: rotate(0deg);
   }.logoTextA{
-    font-size: 50px
+    font-size: 45px
   }.logoTextB{
     font-size: 15px;
+    align-self: end;
   }
   
   .blockFollow{
@@ -274,7 +275,7 @@ nav .item{
   .rigtBlock{
     min-width: 200px;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     /* background-size: contain; */
     margin: 10px;
     padding: 30px 20px 20px 70px;
@@ -323,7 +324,7 @@ nav .item{
   width: 50%;
 }
 .HomeLeft h1{
-  width: 30%;
+  width: 90%;
   font-size: 40px;
   
 }

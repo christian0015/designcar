@@ -25,8 +25,8 @@ function App() {
 
         <div className="leftBlock">
           <div className="logo">
-            <div className="logoTextA">design</div>
-            <div className="logoTextB">design Car</div>
+            <div className="logoTextA">design Car</div>
+            <div className="logoTextB">automobile trend</div>
           </div>
 
           <div className="blockFollow">
